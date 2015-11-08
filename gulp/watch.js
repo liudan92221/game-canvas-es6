@@ -4,7 +4,7 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 
 var gulpMap = {
-  'html': require('./html'),
+  //'html': require('./html'),
   'less': require('./less'),
   'webpack': require('./webpack')
 };

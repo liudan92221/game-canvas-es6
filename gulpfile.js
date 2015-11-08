@@ -42,7 +42,7 @@ gulp.task('default', function() {
      for (var i = 0; i < pages.length; i++) {
        var versionFile = versionMap[pages[i]];
        for (var j = 0;j < versionFile.length;j++) {
-         gulpMap['less'](options, pages[i]);
+         gulpMap['less'](options, pages[i], versionFile[j]);
        }
      }
     gulpMap['webpack'](options);

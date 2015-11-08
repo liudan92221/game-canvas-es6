@@ -1,13 +1,9 @@
-class Page {
+'use strict';
+import {Canvas} from './canvas.js';
+class Main {
   init () {
-
-  }
-  render () {
-
-  }
-  bind () {
-
+    window.G = Canvas;
   }
 }
 
-new Page().init();
+new Main().init();
