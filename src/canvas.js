@@ -21,6 +21,7 @@ export class Canvas {
     };
 
     this.data = null;
+    this.init();
   }
   init() {
     this.addEvent();

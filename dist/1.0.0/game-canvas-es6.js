@@ -100,6 +100,7 @@
 	    };
 	
 	    this.data = null;
+	    this.init();
 	  }
 	
 	  Canvas.prototype.init = function init() {
