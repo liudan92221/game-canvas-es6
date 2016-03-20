@@ -34,6 +34,7 @@ export class Canvas {
       });
     });
   }
+  
   getPosition() {
     var canvas = this.canvas;
     var client = canvas.getBoundingClientRect();
